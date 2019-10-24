@@ -1,0 +1,291 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: rgb(129, 82, 82);
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.logo {
+  width: 35%;
+  height: auto;
+}
+
+.up-left {
+  background-image: url(./img/ps.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 250px;
+  float: left;
+  cursor: pointer;
+}
+
+.up-left:hover {
+  filter: contrast(50%);
+  filter: brightness(50%);
+}
+
+.up-right {
+  background: url(./img/pss.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 250px;
+  float: left;
+  cursor: pointer;
+}
+
+.up-right:hover {
+  filter: contrast(50%);
+  filter: brightness(50%);
+}
+
+.down-left {
+  background: url(./img/individual.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 250px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+
+.down-left:hover {
+  filter: contrast(50%);
+  filter: brightness(50%);
+}
+
+.down-right {
+  background: url(./img/team2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 250px;
+  float: left;
+  cursor: pointer;
+}
+
+.down-right:hover {
+  filter: contrast(50%);
+  filter: brightness(50%);
+}
+
+.h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.centered {
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+button {
+  height: 60px;
+  width: 160px;
+}
+
+#photoshop {
+  width: 100%;
+  height: auto;
+  margin-top: 500px;
+}
+
+#corel {
+  width: 100%;
+  height: auto;
+}
+
+#individual {
+  width: 100%;
+  height: auto;
+}
+
+#work {
+  width: 100%;
+  height: auto;
+}
+
+#contact-form {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: rgb(129, 82, 82);
+  width: 100%;
+  height: 500px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 1%;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: floralwhite;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 2%;
+  padding-left: 3%;
+  font-size: 1.2rem;
+}
+
+.grey-text {
+  color: rgb(197, 197, 197);
+  padding-left: 3%;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.text-container {
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 2%;
+  text-align: justify;
+}
+
+.left {
+  width: 45%;
+  margin-left: 2%;
+  margin-top: 2%;
+  float: left;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.light-text {
+  font-weight: lighter;
+}
+
+.red-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(187, 85, 85);
+}
+
+#image-gallery .modal-footer {
+  display: block;
+}
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.red-link {
+  cursor: pointer;
+  color: rgb(187, 85, 85);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.left-align {
+  float: left;
+  margin-left: 2%;
+}
+
+.thankyou-text {
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.thankyou-img{
+  width: 90%;
+  height: auto;
+  padding-left: auto;
+}
+
+/* cenovnik */
+
+section.pricing {
+
+  background: linear-gradient(to right, rgb(129, 82, 82), rgb(51, 174, 255),rgb(129, 82, 82));
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 3rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}

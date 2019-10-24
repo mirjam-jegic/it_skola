@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>IT škola - grafički dizajn</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Naučite Adobe Photoshop i Corel Draw na našim kursevima grafičkog dizajna. Saznajte više i prijavite se! U toku je akcija 10% popusta za sve kurseve! " />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link rel="stylesheet" type="text/css" href="./normalize.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Navigacija -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#"><img src="./img/logo.png" class="img-fluid logo" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Početna</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Predavači</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./prices.html">Cenovnik</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" onclick="contact()">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sekcije -->
+
+  <div class="container-fluid up-left" onclick="photoshop()">
+    <img src="./img/text.png" class="img-fluid centered" />
+  </div>
+  <div class="container-fluid up-right" onclick="corel()">
+    <img src="./img/text2.png" class="img-fluid centered" />
+  </div>
+  <div class="container-fluid down-left" onclick="individual()">
+    <img src="./img/text3.png" class="img-fluid centered" />
+  </div>
+  <div class="container-fluid down-right" onclick="work()">
+    <img src="./img/text4.png" class="img-fluid centered" />
+  </div>
+
+  <div class="container-fluid main">
+
+    <!-- Kurs Photoshop -->
+
+    <div class="container-fluid" id="photoshop">
+      <h2 class="title">Adobe Photoshop i osnove grafičkog dizajna</h2>
+      <div class="col-12 d-flex flex-row flex-wrap justify-content-around align-items-center p-3 pt-2 ">
+        <article class="col-11 col-md-5 col-lg-6 d-flex flex-wrap flex-column justify-content-center p-0 mb-5">
+
+          <p class="red-text">Broj časova:<span class="light-text"> 16</span></p>
+          <p class="red-text">Trajanje:<span class="light-text"> 2 meseca</span></p>
+          <p class="red-text">Način plaćanja:<span class="light-text"> Mogućnost plaćanja na 2 rate</span></p>
+          <p class="red-text">Popust:<span class="light-text"> 10% za avansno plaćanje</span></p>
+
+          <button type="button" class="btn btn-info text-uppercase">Prijavi se</button>
+        </article>
+        <article
+          class="col-12 col-lg-5 d-flex flex-wrap flex-column justify-content-center align-items-center p-0 mb-3">
+
+          <p class="text-justify">Photoshop je jedna od najmoćnijih i najviše korišćenih alatki iz Adobe paketa, koji
+            omogućava širok spektar rada i upotrebe u najrazličitije svrhe: od fotomontaže, retuširanja i editovanja
+            fotografija, ilustovanja i kreiranja vizuelnog sadržaja, do dizajniranja i realizacije najrazličitijih ideja
+            kojima biste preneli svoju poruku, ideju, ili iskazali svoj kreativni duh.
+            Upravo ovaj kurs omogućava vam da u kratkom roku upoznate njegove mogućnosti, da savladate njegove alate i
+            razvijete sopstveni princip rada koji će vam olakšati put ka ostvarenju kreativnih ideja koje želite da
+            realizujete, bilo da je to poboljšavanje svojih fotografija, fotomontaža, ili da planirate da uđete u
+            profesionalne vode, kreirajući sadržaje koji će promovisati vaš, ili sadržaj vašeg klijenta – kako u štampi
+            tako i u digitalnim medijima.
+          </p>
+        </article>
+      </div>
+    </div>
+
+    <!-- Kurs Corel i Photoshop-->
+
+    <div class="container-fluid" id="corel">
+      <h2 class="title">Corel Draw i Adobe Photoshop sa elementima dizajna</h2>
+      <div class="col-12 d-flex flex-row flex-wrap justify-content-around align-items-center p-3 pt-2 ">
+        <article class="col-11 col-md-5 col-lg-6 d-flex flex-wrap flex-column justify-content-center p-0 mb-5">
+
+          <p class="red-text">Broj časova:<span class="light-text"> 16</span></p>
+          <p class="red-text">Trajanje:<span class="light-text"> 2 meseca</span></p>
+          <p class="red-text">Način plaćanja:<span class="light-text"> Mogućnost plaćanja na 2 rate</span></p>
+          <p class="red-text">Popust:<span class="light-text"> 10% za avansno plaćanje</span></p>
+
+          <button type="button" class="btn btn-info text-uppercase">Prijavi se</button>
+        </article>
+
+        <article
+          class="col-12 col-lg-5 d-flex flex-wrap flex-column justify-content-center align-items-center p-0 mb-3">
+
+          <p class="text-justify">
+            U kombinaciji, ova dva programa iz Adobe paketa, pružaju gotovo
+            bezgranične mogućnosti u sferi vizuelnih komunikacija, dizajna, ili
+            ličnog i individualnog kreativnog stvaralaštva. Ovaj kurs namenjen
+            je onima koji već poseduju osnovno znanje u baratanju bar jednim od
+            ova dva programa (u suprotnom treba proći osnovni nivo). Tako ćete,
+            kroz predavanja i vežbe, naučiti teorijske osnove dizajna i stvarati
+            sopstveni dizajn, što će vam omogućiti da profesionalno i sa visokim
+            kvalitetom kreirate logotipe, vizit karte i brošure, banere i
+            postere, itd, i time uplivate u kreativni svet novog doba u kojem je
+            ovakva vrsta znanja sve više tražena, pogotovo u oblasti marketinga
+            – a najviše onog koji se tiče interneta.
+        </article>
+      </div>
+    </div>
+
+    <!-- Individualni kurs -->
+
+    <div class="container-fluid" id="individual">
+      <h2 class="title">Individualni kurs grafičkog dizajna</h2>
+      <div class="col-12 d-flex flex-row flex-wrap justify-content-around align-items-center p-3 pt-2 ">
+        <article class="col-11 col-md-5 col-lg-6 d-flex flex-wrap flex-column justify-content-center p-0 mb-5">
+
+          <p class="red-text">Broj časova:<span class="light-text"> po dogovoru</span></p>
+          <p class="red-text">Trajanje:<span class="light-text"> po dogovoru</span></p>
+          <p class="red-text">Način plaćanja:<span class="light-text"> po dogovoru</span></p>
+          <p class="red-text">Popust:<span class="light-text"> 10% za avansno plaćanje</span></p>
+
+          <button type="button" class="btn btn-info text-uppercase">Prijavi se</button>
+        </article>
+        <article
+          class="col-12 col-lg-5 d-flex flex-wrap flex-column justify-content-center align-items-center p-0 mb-3">
+
+          <p class="text-justify">
+            Ovaj kurs namenjen je firmama i pojedincima čija oblast delovanja
+            podrazumeva daleko naprednije potrebe za grafičkim dizajnom i Adobe
+            programima. Individualci ili zaposleni u firmama, koji poseduju
+            određeno znanje iz ovih obasti, na individualnom kursu pohađaju obuku
+            specijalno prilagođenu njihovim potrebama i trenutnom poznavanju
+            programa i time stiču zagarantovano veći nivo kvaliteta rada i
+            poznavanja kako programa, tako i dizajna. Po završetku kursa
+            posavetovaćemo vas šta je najbolje da dalje učite i u čemu da se
+            usavršavate. Za više informacija i radi zakazivanja sastanka sa nama
+            najbolje je da nas kontaktirate klikom na <span class="red-link" onclick="contact()">POŠALJI UPIT</span>.
+            Takođe
+            imate mogućnost da učite i od kuće preko Skypa-a, 1 na 1 sa
+            profesorom.
+        </article>
+      </div>
+    </div>
+
+    <!-- Galerija -->
+
+    <div class="container-fluid" id="work">
+      <h2 class="title">Radovi naših polaznika</h2>
+      <div class="row">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" data-image-id="" data-target="#image-gallery">
+              <img class="img-thumbnail" src="img/img1.jpg" alt="Vodena sijalica" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" data-image-id="" data-target="#image-gallery">
+              <img class="img-thumbnail" src="img/img2.jpg" alt="Limun" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 thumb">
+            <a class="thumbnail" data-image-id="" data-target="#image-gallery">
+              <img class="img-thumbnail" src="img/img3.jpg" alt="Jelen" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 thumb">
+            <a class="thumbnail" data-image-id="" data-target="#image-gallery">
+              <img class="img-thumbnail" src="img/img4.jpg" alt="Pustinja" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 thumb">
+            <a class="thumbnail" data-image-id="" data-target="#image-gallery">
+              <img class="img-thumbnail" src="img/img5.jpg" alt="Vatrena" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 thumb">
+            <a class="thumbnail" data-image-id="" data-target="#image-gallery">
+              <img class="img-thumbnail" src="img/img6.jpg" alt="Zena u crvenom" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 thumb">
+            <a class="thumbnail" data-image-id="" data-target="#image-gallery">
+              <img class="img-thumbnail" src="img/img7.jpg" alt="Broken" />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 thumb">
+            <a class="thumbnail" data-image-id="" data-target="#image-gallery">
+              <img class="img-thumbnail" src="img/img8.jpg" alt="Deca" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kontakt forma -->
+
+    <div class="container-fluid" id="contact-form">
+      <h2>Imate pitanje?</h2>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="well well-sm">
+            <form class="form-horizontal" action="insert.php" method="POST">
+              <fieldset>
+                <!-- Ime-->
+                <div class="form-group">
+                  <label class="col-md-3 control-label">Ime</label>
+                  <div class="col-md-9">
+                    <input id="ime" name="ime" type="text" placeholder="Vaše ime" class="form-control" />
+                  </div>
+                </div>
+                <!-- Email -->
+                <div class="form-group">
+                  <label class="col-md-3 control-label">Vaš E-mail</label>
+                  <div class="col-md-9">
+                    <input id="email" name="email" type="text" placeholder="Vaš email" class="form-control" />
+                  </div>
+                </div>
+                <!-- Poruka -->
+                <div class="form-group">
+                  <label class="col-md-3 control-label">Vaša poruka</label>
+                  <div class="col-md-9">
+                    <textarea class="form-control" id="tekst" name="tekst"
+                      placeholder="Molimo ovde upišite poruku..."></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-md-12 text-left">
+                    <input class="btn btn-info btn-lg text-uppercase" id="submit" type="submit" name="submit"
+                      value="Pošalji"></input>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <footer>
+    <h3>Kontakt</h3>
+    <article class="left-align">
+      <p class="grey-text"><span class="bold-text">Adresa:</span> Rajhl Ferenca 1, Subotica, Serbia</p>
+      <p class="grey-text"><span class="bold-text">E-mail:</span> info@itskola.net</p>
+      <p class="grey-text"><span class="bold-text">Telefon:</span> 065-55-80-594</p>
+    </article>
+
+    <!-- mapa -->
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.4662281727524!2d19.668519172160412!3d46.10031721730078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474366c8546c57c3%3A0x243a9f452beb210b!2sitskola.net!5e0!3m2!1ssr!2srs!4v1571777138205!5m2!1ssr!2srs"
+      width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
